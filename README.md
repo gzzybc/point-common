@@ -1,0 +1,2 @@
+# point-common
+babel
