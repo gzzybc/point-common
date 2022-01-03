@@ -1,0 +1,30 @@
+{
+  "name": "babel-insert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "babel test/index.js -d lib/index.js --watch",
+    "debug": "babel-node babel-project/index.ts --inspect --debug-brk --nolazy src/main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.16.7",
+    "@babel/core": "^7.16.7",
+    "@babel/generator": "^7.16.7",
+    "@babel/plugin-transform-react-jsx": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/template": "^7.16.7",
+    "@babel/traverse": "^7.16.7",
+    "@babel/types": "^7.16.7",
+    "babel-cli": "^6.26.0",
+    "babel-node": "^0.0.1-security",
+    "babel-template": "^6.26.0",
+    "babylon": "^6.18.0",
+    "react": "^17.0.2"
+  }
+}
